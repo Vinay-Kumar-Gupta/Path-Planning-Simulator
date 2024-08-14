@@ -7,7 +7,7 @@
 The syntax is to be:
 ```bash
 python Simulator.py <config_file> <algorithm> <start_x,start_y> <goal_x,goal_y>
-```
+
 Eg. python Simulator.py one.config astar 0,0 19,19
 
 </li>
