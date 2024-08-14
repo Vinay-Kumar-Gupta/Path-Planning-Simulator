@@ -5,9 +5,11 @@
 <li>By default the size of the map is given to be a grid of 20 x 20 cells. However this can be changed by changing the values of ROWS and COLUMNS in the above mentioned file. The name of the config file generated is “one.config” by default. You can change it by changing line 8 of the above mentioned file.</li>
 <li>Once done run the Simulator.py file via terminal. 
 The syntax is to be:
-"python Simulator.py <configfile name> <algo name> <start node> <goal node>"
-Eg. python Simulator.py one.config astar 0,0 19,19
+````
 python Simulator.py <config_file> <algorithm> <start_x,start_y> <goal_x,goal_y>
+````
+Eg. python Simulator.py one.config astar 0,0 19,19
+
 </li>
 
 Program Structure:
