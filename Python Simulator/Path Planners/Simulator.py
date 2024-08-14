@@ -8,7 +8,7 @@ from BFS import *
 start = (0,10)
 goal = (2,48)
 
-t = 2	# Set time to display GUI
+t = 10	# Set time to display GUI
 
 if len(sys.argv)>1:
 	configFileName = sys.argv[1]
@@ -49,7 +49,7 @@ if width <= 10:
 else:
 	yoffset = 100
 
-maxScreenHeight = 700
+maxScreenHeight = 500
 cellSize = int(floor(maxScreenHeight / (height + 2)))
 
 root = Tk()

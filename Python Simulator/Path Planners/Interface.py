@@ -1,6 +1,6 @@
 from math import floor
 from time import sleep
-from Tkinter import Tk, Canvas, Frame, BOTH
+from tkinter import Tk, Canvas, Frame, BOTH
 
 '''
 Color Palette:
