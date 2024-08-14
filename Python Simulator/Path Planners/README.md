@@ -3,14 +3,12 @@
 <li>Navigate to the folder and run the file named ConfigFileMaker.py</li>
 <li>Click on the opened GUI to make obstacles. Once done doing this, click on “Set” and then “Exit” button.</li>
 <li>By default the size of the map is given to be a grid of 20 x 20 cells. However this can be changed by changing the values of ROWS and COLUMNS in the above mentioned file. The name of the config file generated is “one.config” by default. You can change it by changing line 8 of the above mentioned file.</li>
-<li>Once done run the Simulator.py file via terminal. 
-The syntax is to be:
-  \`\`\`bash
-  python Simulator.py <config_file> <algorithm> <start_x,start_y> <goal_x,goal_y>
-  \`\`\`
-Eg. python Simulator.py one.config astar 0,0 19,19
+- Once done, run the `Simulator.py` file via terminal. The syntax is to be:
 
-</li>
+      python Simulator.py <config_file> <algorithm> <start_x,start_y> <goal_x,goal_y>
+
+  Example:
+      python Simulator.py one.config astar 0,0 19,19
 
 Program Structure:
 1.	Datatypes.py - > Contains implementations of all the ADT’s such as queue, stack and priority queue.
